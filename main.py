@@ -42,7 +42,7 @@ def process_stt(url) -> str:
   # data = requests.post("https://api.runpod.ai/v2/db1wi7vz32idky/run", json={
     "input": {
       "audio": url,  
-      # "model": "large-v2",
+      "model": "large-v2",
       # "model": "large-v2",
       # "language": "ko",
       "transcription": "vtt",
